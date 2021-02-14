@@ -8,7 +8,7 @@ using only python code, very similar to what an ORM does.
 """
 
 import boto3
-from utils.exceptions import InstanceNotFound # pylint: disable=import-error
+from utils.exceptions import InstanceNotFound
 
 dynamo = boto3.client('dynamodb')
 
